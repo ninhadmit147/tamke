@@ -1,0 +1,8 @@
+<a routerLink="product-add">Add product</a>
+<div *ngFor="let item of products">
+    <a routerLink="{{item.id}}">{{item.name}}
+        <button (click)="removeItem(item.id)">Delete</button> |
+        <a routerLink="update/{{item.id}}">Update</a> 
+    </a>
+</div>
+<!-- <router-outlet></router-outlet> -->

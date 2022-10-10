@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web17103';
+
+  products = [
+    { id: 1, name: "Prod 1" },
+    { id: 2, name: "Prod 2" },
+  ]
+  // onProductName(newItem: any) {
+  //   this.names.push
+  // }
 }

@@ -1,0 +1,11 @@
+<h1>
+  Add product
+</h1>
+<form (submit)="onHandleAdd($event)">
+  <label for="">Product name</label>
+  <br>
+  <input type="text" name="prodName" [(ngModel)]="prodName" id="">
+  <br>
+  <button class="btn-primary mt-1">Add</button>
+</form>
+  
